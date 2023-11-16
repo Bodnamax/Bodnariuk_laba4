@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.comment {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Add these styles to your existing CSS file or create a new one */
+
+.user-reviews-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.user-review {
+    background-color: #a37d45;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.user-review h3 {
+    margin: 20px;
+    color: #333;
+}
+
+.user-review p {
+    margin: 20px;
+    color: #333;
+}
+
+/* Optional: Add styles for responsiveness */
+@media (max-width: 768px) {
+    .user-review {
+        max-width: 100%;
+    }
+}
